@@ -48,7 +48,7 @@ int main() {
         sqfeet_perhour = 200;
     }
 
-    // prevent integer division
+    // calculate time needed for painting
     double hours = area / sqfeet_perhour;
 
     // output one place to right of decimal point, green console text
