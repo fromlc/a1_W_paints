@@ -26,6 +26,7 @@ int main() {
     cout << "\nAre you tired? (y/n) ";
     char ch;
     cin >> ch;
+    // force keyboard input to upper case
     ch = toupper(ch);
 
     // determine area to paint
