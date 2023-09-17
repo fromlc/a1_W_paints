@@ -22,15 +22,15 @@ int main() {
     // greet user W by name
     cout << "\nHello W!\n";
 
-    // determine tired state
-    cout << "\nAre you tired? (y/n) ";
+    // determine tired state, use white console text
+    cout << "\nAre you tired? (y/n) " << FG_WHITE;
     char ch;
     cin >> ch;
     // force keyboard input to upper case
     ch = toupper(ch);
 
     // determine area to paint
-    cout << "How many square feet will you paint? ";
+    cout << RESET << "How many square feet will you paint? " << FG_WHITE;
     double area;
     cin >> area;
 
