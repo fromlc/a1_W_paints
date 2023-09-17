@@ -34,21 +34,10 @@ int main() {
     double area;
     cin >> area;
 
-    // painting how fast?
-    double sqfeet_perhour;
+    // painting how fast? use ternary equivalent to if statement
+    double sqfeet_perhour = (ch == 'N') ? 400 : 200;
 
-    // not tired => 400 sq feet / hour
-    if (ch == 'N')
-    {
-        sqfeet_perhour = 400;
-    }
-    // any other response assumes tired => 200 sq feet / hour
-    else
-    {
-        sqfeet_perhour = 200;
-    }
-
-    // prevent integer division
+    // calculate time needed to complete painting
     double hours = area / sqfeet_perhour;
 
     // output one place to right of decimal point, green console text
