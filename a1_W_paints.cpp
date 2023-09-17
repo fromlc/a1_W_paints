@@ -1,12 +1,12 @@
 //------------------------------------------------------------------------------
-// cs181-a2-W-Paints.cpp
+// a1_W_Paints.cpp
 //
-// Assignment 2
+// Assignment 1
 //  - greets user W by name
-//  - asks W whether she is tired and accepts W's input
-//  - asks W how many square feet of surface she needs to paint
+//  - asks W whether they are tired and accepts console input
+//  - asks W how many square feet of surface they needs to paint
 //  - calculates how many hours the job will take W to complete,
-//      given that she's tired or not tired
+//      given that they're tired or not tired
 //------------------------------------------------------------------------------
 #include "ansi_colors.h"
 
