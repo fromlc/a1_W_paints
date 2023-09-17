@@ -40,8 +40,8 @@ int main() {
     // calculate time needed to complete painting
     double hours = area / sqfeet_perhour;
 
-    // output one place to right of decimal point, green console text
-    cout << fixed << setprecision(1) << FG_GREEN;
+    // output one place to right of decimal point, cyan console text
+    cout << fixed << setprecision(1) << FG_CYAN;
     cout << "\Painting " << area << " square feet will take you "
         << hours << " hours.\n";
     // set console text back to user's color
